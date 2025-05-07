@@ -9,7 +9,7 @@ export default function Navbar() {
           <BookOpen className="h-6 w-6" />
           <span>Team 105</span>
         </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
+        <nav className="hidden md:flex ml-auto gap-4 sm:gap-6">
           <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
             Home
           </Link>
